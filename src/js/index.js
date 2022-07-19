@@ -8,6 +8,7 @@ import "../styles/index.css";
 
 function SimpleCounter(props){
     return (<div className="box">
+        <div className="clock"><i className="far fa-clock"></i></div>
         <div className="fourth-digit">{props.fourthDigit}</div>
         <div className="third-digit">{props.thirdDigit}</div>
         <div className="second-digit">{props.secondDigit}</div>
